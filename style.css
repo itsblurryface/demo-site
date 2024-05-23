@@ -1,0 +1,82 @@
+.attribution { font-size: 15px; text-align: center; margin: 0; padding: 0; }
+.attribution a { color: hsl(228, 45%, 44%); }
+/* .attribution{height: 10px;} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    margin-top: 5rem;
+    max-width: 5rem;
+    /* height: 50px; */
+    border-radius: 50px;
+    background-color: white;
+    padding: 1rem 2rem ;
+
+}
+.container{
+    background-color: rgb(252, 164, 50);
+    margin: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+.card-container{
+    display: flex;
+}
+.card{
+    width: 35%;
+    /* height: 93vh; */
+    padding: 5rem;
+}
+h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+p{
+    line-height: 2rem;
+    margin: 3rem 0 6rem 0;
+    opacity: 80%;
+}
+
+.sudan-card{
+    background-color: hsl(31, 77%, 52%);
+}
+.suv-card{
+    background-color:  hsl(184, 100%, 22%);
+}
+.luxury-card{
+    background-color: hsl(179, 100%, 13%);
+}
+.sudan-btn{
+    color: hsl(31, 77%, 52%);
+}
+.suv-btn{
+    color: hsl(184, 100%, 22%);
+}
+.luxury-btn{
+    color: hsl(179, 100%, 13%);
+}
+@media(max-width:375px){
+    .card-container{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        height: auto;
+    }
+    a{
+        padding: .5rem 1rem;
+    }
+}
